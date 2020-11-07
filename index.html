@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <script>
+      var is_iPad = navigator.userAgent.match(/iPad/i) != null;
+      if (is_iPad) {
+        document.write('<meta content="width=1280px" name="viewport">');
+      } else {
+        document.write(
+          '<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">'
+        );
+      }
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Housing</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/custom.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./CSS/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./CSS/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__custom-text">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-ex1-collapse"
+          >
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1>HouS<span>ing</span></h1>
+        </div>
+        <div
+          class="navbar-collapse navbar-ex1-collapse collapse"
+          aria-expanded="false"
+          style="height: 1px"
+        >
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+            <li><a class="page-scroll" href="#">Home</a></li>
+            <li><a class="page-scroll scroll" href="#">About</a></li>
+            <li><a class="page-scroll scroll" href="#">Blog</a></li>
+            <li><a class="page-scroll scroll" href="#">Portfolio</a></li>
+            <li><a class="page-scroll scroll" href="#">Agents</a></li>
+            <li><a class="page-scroll scroll" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--carousel-->
+    <div class="owl-carousel owl-theme custom-carousel">
+      <div class="item">
+        <img src="./img/b1.jpg" />
+        <div class="text_carousel">
+          <h4>Lorem, ipsum dolor.</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./img/b2.jpg" />
+        <div class="text_carousel">
+          <h4>Lorem, ipsum dolor.</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./img/b3.jpg" />
+        <div class="text_carousel">
+          <h4>Lorem, ipsum dolor.</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./img/b4.jpg" />
+        <div class="text_carousel">
+          <h4>Lorem, ipsum dolor.</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+    </div>
+    <!--kt-carousel-->
+    <!--Row About-->
+    <section class="container">
+      <h1 style="text-align: center">About</h1>
+      <div class="about">
+        <div class="responsive">
+          <div class="custom__text-about">
+            <span class="fa fa-home" aria-hidden="true"></span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="responsive">
+          <div class="custom__text-about">
+            <span class="fa fa-key" aria-hidden="true"></span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="responsive">
+          <div class="custom__text-about">
+            <span class="fa fa-money" aria-hidden="true"></span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="about__text-custom">
+        <h4>About us</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          mollitia voluptatem fugiat veniam alias fugit voluptates? Suscipit
+          optio soluta rerum ipsum eos, voluptatum saepe sint modi labore eum!
+          Assumenda quasi, impedit fugiat incidunt animi deleniti aliquid
+          obcaecati natus nam est atque ducimus tempora quas, eligendi culpa
+          tenetur illo numquam facere soluta? Exercitationem ea, doloribus
+          laboriosam vel porro voluptate eligendi excepturi in dignissimos,
+          corrupti ipsam illum error facere itaque? Rerum, eaque?
+        </p>
+      </div>
+    </section>
+    <!--kt-row-->
+    <!--COUNTER-->
+    <section class="content-custom">
+      <h1>STATS</h1>
+      <div class="stats">
+        <div class="stats-items">
+          <div class="stat-item">
+            <p class="counter">3500</p>
+            <p>Client</p>
+          </div>
+          <div class="stat-item">
+            <p class="counter">650</p>
+            <p>Plans</p>
+          </div>
+          <div class="stat-item">
+            <p class="counter">1021</p>
+            <p>Projects</p>
+          </div>
+          <div class="stat-item">
+            <p class="counter">1010</p>
+            <p>Likes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- kt-row -->
+    <!--ROW-BLOG-->
+    <section class="container blog-custom">
+      <h1>BLOG</h1>
+      <div class="blog">
+        <div class="custom-blog">
+          <img src="./img/g1.jpg" alt="" />
+          <div class="blog-title">
+            <h4><a href="#">Lorem, ipsum dolor.</a></h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              corrupti quo ratione obcaecati.
+            </p>
+            <div class="btn-more">
+              <a href="#" data-toggle="modal" data-target="#myModal"
+                >Read more..</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="custom-blog">
+          <img src="./img/g2.jpg" alt="" />
+          <div class="blog-title">
+            <h4><a href="#">Lorem, ipsum dolor.</a></h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+              eaque nihil dolore tempore?
+            </p>
+            <div class="btn-more">
+              <a href="#" data-toggle="modal" data-target="#myModal"
+                >Read more..</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="custom-blog">
+          <img src="./img/g3.jpg" alt="" />
+          <div class="blog-title">
+            <h4><a href="#">Lorem, ipsum dolor.</a></h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              eaque nihil dolore tempore?
+            </p>
+            <div class="btn-more">
+              <a href="#" data-toggle="modal" data-target="#myModal"
+                >Read more..</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--kt-blog-->
+    <!-- GET MORE -->
+    <section class="more-custom">
+      <div class="custom-get">
+        <img src="./img/video.jpg" alt="" />
+      </div>
+      <div class="title-more">
+        <h2>GET MORE</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut minim veniam, labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi esse quam nihil molestiae consequatur, vel illum qui
+          dolorem eum fugiat quo voluptas nulla pariatur.
+        </p>
+        <div class="btn-more-custom">
+          <a href="#" data-toggle="modal" data-target="#myModal">Read more..</a>
+        </div>
+      </div>
+    </section>
+    <!--kt-more-->
+    <!--GALERY-->
+    <section class="container galery">
+      <h1>Portfolio</h1>
+      <div class="custom-galery">
+        <div class="galery-custom">
+          <a href="./img/img1.jpg" class="img-galery">
+            <img src="./img/img1.jpg" alt="" />
+          </a>
+        </div>
+        <div class="galery-custom">
+          <a href="./img/img2.jpg" class="img-galery">
+            <img src="./img/img2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="galery-custom">
+          <a href="./img/img3.jpg" class="img-galery">
+            <img src="./img/img3.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="custom-galery">
+        <div class="galery-custom">
+          <a href="./img/img4.jpg" class="img-galery">
+            <img src="./img/img4.jpg" alt="" />
+          </a>
+        </div>
+        <div class="galery-custom">
+          <a href="./img/img5.jpg" class="img-galery">
+            <img src="./img/img5.jpg" alt="" />
+          </a>
+        </div>
+        <div class="galery-custom">
+          <a href="./img/img6.jpg" class="img-galery">
+            <img src="./img/img6.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--kt-Galery-->
+    <!--Subscribe-->
+    <section class="custom-sub">
+      <h1>Subscribe</h1>
+      <p>
+        consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+        pariatur. Ut enim ad minim<br />
+        veniam, quis nostrud exercitation ullamco laboris nisi
+      </p>
+      <div class="form-sub">
+        <form action="#" method="POST">
+          <div class="sub-email">
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="btn-sub">
+            <a href="#">Click</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--kt-row-->
+    <!--AGENT-->
+    <section class="container agent-custom">
+      <h1>OUR AGENT</h1>
+      <div class="agent">
+        <div class="custom-agent">
+          <img src="./img/t1.jpg" alt="" />
+          <div class="agent-title">
+            <h3>kat wally</h3>
+            <p>Lorem Ipsum</p>
+            <ul>
+              <li>
+                <a href="#"><span fa fa-facebook></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="custom-agent">
+          <img src="./img/t4.jpg" alt="" />
+          <div class="agent-title">
+            <h3>john max</h3>
+            <p>Lorem Ipsum</p>
+            <ul>
+              <li>
+                <a href="#"><span fa fa-facebook></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="custom-agent">
+          <img src="./img/t3.jpg" alt="" />
+          <div class="agent-title">
+            <h3>roy kent</h3>
+            <p>Lorem Ipsum</p>
+            <ul>
+              <li>
+                <a href="#"><span fa fa-facebook></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="custom-agent">
+          <img src="./img/t2.jpg" alt="" />
+          <div class="agent-title">
+            <h3>joy Idson</h3>
+            <p>Lorem Ipsum</p>
+            <ul>
+              <li>
+                <a href="#"><span fa fa-facebook></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--kt-row-->
+    <!--CONTACT-->
+    <section class="contact">
+      <div class="top-contact">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9453399502036!2d106.70487451411681!3d10.815495061430466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528960facdb93%3A0x402b76a367685b17!2zVOG7lW5nIEPDtG5nIFR5IFhkIFRo4buneSBM4bujaSA0!5e0!3m2!1svi!2s!4v1560919834337!5m2!1svi!2s"
+          width="100%"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="container contact-custom">
+        <h3>CONTACT</h3>
+        <div class="form-contact">
+          <form action="/" method="POST">
+              <div class="text-form">
+                <input type="text" placeholder="Name" required />
+              </div>
+              <div class="text-form">
+                <input type="text" placeholder="Last Name" required />
+              </div>
+              <div class="text-form-email">
+                <input type="email" placeholder="Email" required />
+              </div>
+              <div class="text-form">
+                <input type="text" placeholder="Phone" required />
+              </div>
+              <div class="form-text-area">
+                <textarea placeholder="Messenger" required></textarea>
+                <input type="submit" value="Submit" />
+              </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--kt-row-->
+    <!--FOOTER-->
+    <section class="bg-ft">
+      <div class="copyright-ft">
+        <p>
+          © 2017 Housing. All Rights Reserved | Design by
+          <a href="#"> W3layouts </a>
+        </p>
+      </div>
+    </section>
+    <!--kt-row-->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+      $(".counter").countUp();
+    </script>
+
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
